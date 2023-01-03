@@ -5,11 +5,11 @@ class LandOwner:
         self.acres = acres
         self.amount = amount
 
-    @setLandOwnerID.setter
+    
     def setLandOwnerID(self, landOwnerID):
         self.landOwnerID = landOwnerID
 
-    @property
+    
     def getLandOwnerID(self):
         return self.landOwnerID
 
