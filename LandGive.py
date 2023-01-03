@@ -52,11 +52,8 @@ class LandOwner:
 
 # Driver
 L1 = LandOwner(1, "Aditya", 100, 1000)
-# L1.setLandOwnerID = 2323
-L1.setLandOwnerID = 2323
 L2 = LandOwner(3, "Meet", 200, 2000)
 L1.sellLand(100, 2, L2)
-L3 = LandOwner()
 L1.printDetails()
 L2.printDetails()
 
